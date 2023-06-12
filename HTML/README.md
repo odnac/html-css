@@ -23,7 +23,7 @@
 
 </br>
 
-## head 태그
+## \<head\> 태그
 
 ```
 <html lang="kr">    // 브라우저에게 어떤 언어를 사용하는지 알려줌
@@ -98,6 +98,17 @@
     <input type="submit" value="Create Account" />
 </form>
 ```
+
+<input id="profile" type="file" accept=".pdf" />
+    <input id="first-name" required placeholder="Name" type="text" />
+    <input required placeholder="Last Name" type="text" />
+    <input required placeholder="Username" type="text" />
+    <input
+        required
+        placeholder="Password"
+        minlength="10"
+        type="password"
+    />
 
 <br/>
 
