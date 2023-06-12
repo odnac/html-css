@@ -23,7 +23,7 @@
 
 </br>
 
-## <head> 태그
+## head 태그
 
 ```
 <html lang="kr">    // 브라우저에게 어떤 언어를 사용하는지 알려줌
@@ -32,8 +32,6 @@
 <meta name="description" content="스마트 TV, 태블릿, 스마트폰, PC, 게임 콘솔 등 다양한 디바이스에서 영화와 시리즈를 마음껏 즐기세요.">
 <meta charset="utf-8"/>
 ```
-
-<img src="image.png">
 
 <br/>
 
