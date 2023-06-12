@@ -42,6 +42,8 @@
 </ol>
 ```
 
+### 실행 결과
+
 <!-- unordered list, item list -->
 <ul>
     <li>beer</li>
