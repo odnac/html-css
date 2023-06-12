@@ -4,7 +4,19 @@
 
 [MDN](https://developer.mozilla.org/ko/docs/Web/HTML/Element/html)
 
-    <ol>
-        <li>a</li>
-        <li>b</li>
-    </ol>
+```html:home.html
+
+<!-- unordered list, item list -->
+<ul>
+    <li>beer</li>
+    <li>meat</li>
+    <li>milk</li>
+</ul>
+
+<!-- orderdd list -->
+<ol>
+    <li>beer</li>
+    <li>meat</li>
+    <li>milk</li>
+</ol>
+```
