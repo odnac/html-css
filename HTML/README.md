@@ -8,12 +8,16 @@
 
 ```
 <!DOCTYPE html>
-<html>
+<html lang="ko">
     <head>
-        <title></title>
+        <meta charset="utf-8">
+        <title>
+</title>
     </head>
 
-    <body></body>
+    <body>
+
+    </body>
 </html>
 
 ```
@@ -22,9 +26,7 @@
 
 ## 태그 예시
 
-home.html
-
-```html:home.html
+```
 <!-- unordered list, item list -->
 <ul>
     <li>beer</li>
