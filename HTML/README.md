@@ -46,6 +46,4 @@
 
 ## 속성 예시
 
-```
-<a __href="http://www.google.com" target="_blank"__>Go to google.com</a>
-```
+    <a __href="http://www.google.com" target="_blank"__>Go to google.com</a>
