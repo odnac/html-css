@@ -1,7 +1,8 @@
 ## 참고문서
 
 :bookmark_tabs: [MDN-HTML](https://developer.mozilla.org/ko/docs/Web/HTML/Element/html)
-<br/><br/>
+
+<br/>
 
 ## 태그
 
@@ -21,6 +22,6 @@
 </ol>
 ```
 
-<br/><br/>
+<br/>
 
 ## 속성
