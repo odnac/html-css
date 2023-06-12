@@ -18,7 +18,6 @@
 
     </body>
 </html>
-
 ```
 
 </br>
@@ -100,15 +99,15 @@
 ```
 
 <input id="profile" type="file" accept=".pdf" />
-    <input id="first-name" required placeholder="Name" type="text" />
-    <input required placeholder="Last Name" type="text" />
-    <input required placeholder="Username" type="text" />
-    <input
-        required
-        placeholder="Password"
-        minlength="10"
-        type="password"
-    />
+<input id="first-name" required placeholder="Name" type="text" />
+<input required placeholder="Last Name" type="text" />
+<input required placeholder="Username" type="text" />
+<input
+    required
+    placeholder="Password"
+    minlength="10"
+    type="password"
+/>
 
 <br/>
 
