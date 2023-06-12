@@ -1,6 +1,8 @@
-## :bookmark_tabs:참고문서
+## HTML
 
-[MDN](https://developer.mozilla.org/ko/docs/Web/HTML/Element/html)
+## 참고문서
+
+:bookmark_tabs: [MDN](https://developer.mozilla.org/ko/docs/Web/HTML/Element/html)
 
 ```html:home.html
 
