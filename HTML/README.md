@@ -8,11 +8,10 @@
 
 ```
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="kr">
     <head>
-        <meta charset="utf-8">
-        <title>
-</title>
+        <meta charset="utf-8"/>
+        <title></title>
     </head>
 
     <body>
@@ -21,6 +20,20 @@
 </html>
 
 ```
+
+</br>
+
+## <head> 태그
+
+```
+<html lang="kr">    // 브라우저에게 어떤 언어를 사용하는지 알려줌
+<link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">  // 탭 이미지
+<title>넷플릭스 대한민국 - 인터넷으로 시리즈와 영화를 시청하세요</title>
+<meta name="description" content="스마트 TV, 태블릿, 스마트폰, PC, 게임 콘솔 등 다양한 디바이스에서 영화와 시리즈를 마음껏 즐기세요.">
+<meta charset="utf-8"/>
+```
+
+<img src="image.png">
 
 <br/>
 
@@ -62,8 +75,10 @@
 
 ## 속성 예시
 
-<a **href="http://www.google.com" target="\_blank"**>Go to google.com</a>
+```
+<a href="http://www.google.com" target="_blank">Go to google.com</a>
 
 <img src="--url--" />
 
 <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico" />
+```
