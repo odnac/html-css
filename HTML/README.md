@@ -62,10 +62,8 @@
 
 ## 속성 예시
 
-```
-<a href="http://www.google.com" target="_blank">Go to google.com</a>
+<a **href="http://www.google.com" target="\_blank"**>Go to google.com</a>
 
-<img src="  url  " />
+<img src="--url--" />
 
 <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico" />
-```
