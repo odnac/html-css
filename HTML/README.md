@@ -42,8 +42,28 @@
 </ol>
 ```
 
+<!-- unordered list, item list -->
+<ul>
+    <li>beer</li>
+    <li>meat</li>
+    <li>milk</li>
+</ul>
+
+<!-- orderdd list -->
+<ol>
+    <li>beer</li>
+    <li>meat</li>
+    <li>milk</li>
+</ol>
+
 <br/>
 
 ## 속성 예시
 
-    <a __href="http://www.google.com" target="_blank"__>Go to google.com</a>
+```
+<a href="http://www.google.com" target="_blank">Go to google.com</a>
+
+<img src="  url  " />
+
+<link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico" />
+```
