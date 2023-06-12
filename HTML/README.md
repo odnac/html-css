@@ -71,7 +71,7 @@
 
 <br/>
 
-## <form>
+## \<form\> 태그
 
 사용자로부터 입력을 받을 수 있는 HTLM 입력 폼(form)을 정의할 때 사용합니다.
 
@@ -98,29 +98,6 @@
     <input type="submit" value="Create Account" />
 </form>
 ```
-
-<form>
-    <input id="profile" type="file" accept=".pdf" />
-    <input id="first-name" required placeholder="Name" type="text" />
-    <input required placeholder="Last Name" type="text" />
-    <input required placeholder="Username" type="text" />
-    <input
-        required
-        placeholder="Password"
-        minlength="10"
-        type="password"
-    />
-    <input type="submit" value="Create Account" />
-
-    <label for="website">Website</label>
-    <input id="website" required placeholder="Name" type="url" />
-    <input type="submit" value="Create Account" />
-
-    <label for="email">Website</label>
-    <input id="email" required placeholder="Name" type="email" />
-    <input type="submit" value="Create Account" />
-
-</form>
 
 <br/>
 
