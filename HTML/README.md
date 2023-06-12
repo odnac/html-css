@@ -84,6 +84,21 @@
 
 <br/>
 
+## \<label\> 태그
+
+폼 요소에 이름표를 붙이기 위한 것
+
+```
+<form>
+
+    <label for="first-name">First Name</label>
+    <input id="first-name" required placeholder="Name" type="text" />
+
+</form>
+```
+
+<br/>
+
 ## 속성 예시
 
 ```
