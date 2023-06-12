@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form tag</title>
+    </head>
+
+    <body>
+        <form>
+            <!-- div -->
+            <div>
+                <input id="profile" type="file" accept=".pdf" />
+            </div>
+
+            <div>
+                <input
+                    id="first-name"
+                    required
+                    placeholder="Name"
+                    type="text"
+                />
+                <input required placeholder="Last Name" type="text" />
+                <input required placeholder="Username" type="text" />
+                <input
+                    required
+                    placeholder="Password"
+                    minlength="10"
+                    type="password"
+                />
+                <input type="submit" value="Create Account" />
+                <input type="submit" disabled value="Create Account" />
+            </div>
+
+            <div>
+                <label for="website">Website</label>
+                <input id="website" required placeholder="Name" type="url" />
+                <input type="submit" value="Create Account" />
+            </div>
+
+            <div>
+                <label for="email">Website</label>
+                <input id="email" required placeholder="Name" type="email" />
+                <input type="submit" value="Create Account" />
+            </div>
+
+            <!-- header -->
+            <header>
+                <title>Hello</title>
+            </header>
+
+            <!-- main -->
+            <main>
+                <span>long text</span>
+                <p>short text</p>
+            </main>
+
+            <!-- footer -->
+            <footer>&copy; 2020</footer>
+        </form>
+    </body>
+</html>
