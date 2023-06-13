@@ -211,3 +211,100 @@ selector {
 > position: fixed;를 이용하면 스크롤해도 항상 화면 제자리에 머문다. 광고 생각하면 된다.  
 > 하지만 top, left, right, bottom 중 하나만 수정해도 서로 다른 레이어에 위치하게 되어 원래 위치가 무시된다.  
 > position fixed를 이용하면 가장 위에 위치하게 된다.(맨 앞)
+
+<br/>
+
+## position: static \( default \)
+
+레이아웃이 박스를 처음 위치하는 곳에 두는 것
+
+```html
+<head>
+    <style>
+        body {
+            height: 1000vh;
+            margin: 20px;
+        }
+        div {
+            width: 300px;
+            height: 300px;
+            color: white;
+            background-color: teal;
+            position: static;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+```
+
+<br/>
+
+## position: relative
+
+element가 '처음 생성된 위치'를 기준점으로, top bottom left right로 위치를 조금씩 수정할 수 있다.
+
+```html
+<head>
+    <style>
+        body {
+            height: 1000vh;
+            margin: 20px;
+        }
+        div {
+            width: 300px;
+            height: 300px;
+            color: white;
+            background-color: teal;
+        }
+        #relative {
+            position: relative;
+            background-color: wheat;
+            width: 50px;
+            height: 50px;
+            top: -10px;
+            left: -10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="relative"></div>
+    </div>
+</body>
+```
+
+## position: absolute
+
+가장 가까운 relative 부모를 기준으로 이동. relative 부모가 없으면 body가 기준이 됨
+
+```html
+<head>
+    <style>
+        body {
+            height: 1000vh;
+            margin: 20px;
+        }
+        div {
+            width: 300px;
+            height: 300px;
+            color: white;
+            background-color: teal;
+            position: relative; /* relative가 없으면 가장 가까운 relative가 기준이 된다. 만약 이 코드가 없다면 body가 기준이 됨 */
+        }
+        #absolute {
+            position: absolute;
+            background-color: wheat;
+            width: 50px;
+            height: 50px;
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="absolute"></div>
+    </div>
+</body>
+```
