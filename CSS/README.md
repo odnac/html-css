@@ -467,3 +467,41 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
     </form>
 </body>
 ```
+
+<br/>
+
+## Pseudo Elements
+
+```html
+<head>
+    <style>
+        input {
+            color: blue;
+        }
+        input::placeholder {
+            color: yellowgreen;
+        }
+        /* 글짜 드래그 할 때 */
+        p::selection {
+            color: white;
+            background-color: yellowgreen;
+        }
+        p::first-letter {
+            font-size: 50px;
+        }
+        p::first-line {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Name" />
+    </form>
+    <p>
+        sdfasdfjasldfalsdjfklasjdflkajsdlfkjasdlkfj
+        sldfjlskjdflkasjdflkasjdlfkjaslkdjfalsjfalskj
+        asldkjfaksldjflksajdlfkasjdlfkajsdlkjsajdlkjfslk
+    </p>
+</body>
+```
