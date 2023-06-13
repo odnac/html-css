@@ -275,6 +275,8 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
 </body>
 ```
 
+<br/>
+
 ## position: absolute
 
 가장 가까운 relative 부모를 기준으로 이동. relative 부모가 없으면 body가 기준이 됨
