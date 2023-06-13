@@ -48,7 +48,7 @@ because, **_block_**은 높이와 너비가 있고 **_inline_**은 높이와 너
 
 #### block의 특징
 
-##### <ul><li>margin : 경계의 바깥에 있는 공간<ul><li>
+##### <ul><li>margin : 경계의 바깥에 있는 공간</ul></li>
 
 ```
     margin: 20px        // 상하좌우 20px
@@ -58,9 +58,9 @@ because, **_block_**은 높이와 너비가 있고 **_inline_**은 높이와 너
 
 ###### Collapsing margins, 마진 붕괴 현상 :bookmark_tabs: [참고자료](https://velog.io/@raram2/CSS-%EB%A7%88%EC%A7%84-%EC%83%81%EC%87%84Margin-collapsing-%EC%9B%90%EB%A6%AC-%EC%99%84%EB%B2%BD-%EC%9D%B4%ED%95%B4)
 
-##### border
+##### <ul><li>border</ul></li>
 
-##### padding
+##### <ul><li>padding</ul></li>
 
 <br />
 
