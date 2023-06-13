@@ -80,6 +80,14 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
     padding: 20px 5px 12px 9px // 상20px 우5px 하12px 좌9px
 ```
 
-#### <ul><li>border</ul></li>
+#### <ul><li>border : 경계</ul></li>
 
-<br />
+```
+    * {
+        border: 2px solid black;
+    }
+```
+
+> \* 모든 태그를 의미한다.
+>
+> <br />
