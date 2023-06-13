@@ -68,7 +68,7 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
     * {
         margin: 20px;               /* 상하좌우 20px */
         margin: 20px 15px;          /* 상하20px, 좌우15px */
-        margin: 20px 5px 12px 9px   /* 상20px 우5px 하12px 좌9px */
+        margin: 20px 5px 12px 9px;   /* 상20px 우5px 하12px 좌9px */
     }
 ```
 
@@ -80,7 +80,7 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
     * {
         padding: 20px;               /* 상하좌우 20px */
         padding: 20px 15px;          /* 상하20px, 좌우15px */
-        padding: 20px 5px 12px 9px   /* 상20px 우5px 하12px 좌9px */
+        padding: 20px 5px 12px 9px;  /* 상20px 우5px 하12px 좌9px */
     }
 ```
 
