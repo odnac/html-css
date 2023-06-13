@@ -97,7 +97,7 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
 
 ## id class
 
-```
+```html
     // id : 겹치면 안 됨
     // class : 겹쳐도 됨
 
