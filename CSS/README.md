@@ -342,6 +342,11 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
             border: solid;
         }
 
+        /* span의 형제노드지만 가장 가깝지 않을 때 적용 */
+        span ~ p {
+            text-decoration: overline;
+        }
+
         /* span의 가장 가까운 형제노드 p에만 적용 */
         span + p {
             text-decoration: line-through;
@@ -355,7 +360,51 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
             daslkfjsdlkfjasldkjflaskdjflaskdjflaskdjflasdjflaskdjflaksjflaksdjfaklsdjflaksdjflk.
             <span>inside</span>
         </p>
-        <p>여긴 span + p 적용이 안되네</p>
+        <p>여긴 span ~ p 적용 되네?</p>
     </div>
 </body>
+```
+
+<br/>
+
+## Pseudo Selectors
+
+```
+    <head>
+        <style>
+            /* 방식 1 */
+            input:optional {
+                border: 1px solid wheat;
+            }
+            input:required {
+                border: 1px solid tomato;
+            }
+
+            /* 방식 2 */
+            input {
+                border: 1px solid wheat;
+            }
+            input:required {
+                border-color: tomato;
+            }
+
+            /* ~= 포함하는 */
+            input[placeholder~="name"] {
+                background-color: pink;
+            }
+
+            input[type="password"] {
+                background-color: thistle;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form>
+                <input type="text" placeholder="first name" />
+                <input type="text" placeholder="last name" />
+                <input type="password" required placeholder="password" />
+            </form>
+        </div>
+    </body>
 ```
