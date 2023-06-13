@@ -32,14 +32,14 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
 \<span\>과 같이 하나의 요소 옆에 다른 요소가 올 수 있는 것을 **_inlin_**
 
 ```html
-    <span> hi </span>
-    <span> my </span>
-    <span> name </span>
-    <span> is </span>
-    <div>
+    <span> hi </span>           <!--inline-->
+    <span> my </span>          
+    <span> name </span>         
+    <span> is </span>           
+    <div>                       <!--block-->
         <span> odnac </span>
     </div>
-    <span> !! </span>
+    <span> !! </span>           <!--inline-->
 ```
 
 ### 실행 결과
