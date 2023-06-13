@@ -332,18 +332,12 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
             color: teal;
         }
 
-        /*
-                div 아래 있는 자식, 손자 노드 등 까지 모든 <span>에 적용
-                outside과 inside <span>에 모두 적용 됨
-            */
+        /* div 아래 있는 자식, 손자 노드 등 까지 모든 <span>에 적용. outside과 inside <span>에 모두 적용 됨 */
         div span {
             text-decoration: underline;
         }
 
-        /*
-                div 바로 아래 자식 노드 <span>만 적용
-                outside <span>만 적용 됨
-            */
+        /* div 바로 아래 자식 노드 <span>만 적용. outside <span>만 적용 됨 */
         div > span {
             border: solid;
         }
