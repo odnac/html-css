@@ -408,3 +408,56 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
     </div>
 </body>
 ```
+
+<br/>
+
+## States
+
+```html
+<head>
+    <style>
+        /* 마우스로 클릭 중일 때 */
+        button:active {
+            background-color: blue;
+        }
+        /* 마우스를 위로 올릴 때 */
+        button:hover {
+            background-color: red;
+        }
+        /* 키보드로 선택 할 때 */
+        input:focus {
+            background-color: tomato;
+        }
+        /* 방문 했을 때 */
+        a:visited {
+            color: purple;
+        }
+        form {
+            border: 1px solid salmon;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        /* 자식이 선택 될 때 본인(부모)가 바뀜 */
+        form:focus-within {
+            border-color: seagreen;
+        }
+        /* 부모가 선택 될 때 자식이 바뀜 */
+        form:hover input {
+            background-color: black;
+        }
+
+        form:hover input:focus {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <button>Hello</button>
+        <input type="text" />
+        <input type="text" />
+        <a href="https://apple.com">Apple</a>
+    </form>
+</body>
+```
