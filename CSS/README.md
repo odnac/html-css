@@ -167,3 +167,47 @@ selector {
 3. height을 지정해주지 않으면 align-items를 설정해도 바뀌지 않음. 이미 중심에 있을테니까
 4. flex-direction: column을 하면 주축과 교차축이 바뀜
 5. flex-wrap: 창을 줄였을 때 wrap이면 div의 크기가 압축되고 nowrap이면 div의 크기를 유지하기 위해 다음 줄로 내려간다.
+
+<br/>
+
+## position: fixed
+
+화면 고정하기
+
+```html
+<head>
+    <style>
+        body {
+            height: 1000vh;
+            margin: 20px;
+        }
+        div {
+            width: 300px;
+            height: 300px;
+            color: white;
+            background-color: teal;
+        }
+        #fixed {
+            position: fixed;
+            background-color: wheat;
+            width: 350px;
+
+            /* top, left, right, bottom 중 하나만 수정해도 서로 다른 레이어에 위치하게 되어 원래 위치가 무시된다. */
+            /* 
+            top: 5px;
+            left: 10px;
+            right: 15px;
+            bottom: 20px; 
+            */
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div id="fixed"></div>
+</body>
+```
+
+> position: fixed;를 이용하면 스크롤해도 항상 화면 제자리에 머문다. 광고 생각하면 된다.
+> 하지만 top, left, right, bottom 중 하나만 수정해도 서로 다른 레이어에 위치하게 되어 원래 위치가 무시된다.
+> position fixed를 이용하면 가장 위에 위치하게 된다.(맨 앞)
