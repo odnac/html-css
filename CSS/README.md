@@ -92,3 +92,33 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
 > **Tip**  
 > inline은 높이와 너비를 가질 수 없기 때문에 margin 좌우만 가질 수 있다.  
 > padding은 상하좌우 가질 수 있다.
+
+<br/>
+
+## id class
+
+```
+    // id : 겹치면 안 됨
+    // class : 겹쳐도 됨
+
+    // #abc == id="abc"
+    // .abc == class="abc"
+
+    <head>
+        <style>
+            .fruit {
+                background-color: green;
+            }
+            #apple {
+                color: red;
+            }
+            #banana {
+                color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <span id="apple" class="fruit">hello</span>
+        <span id="banana" class="fruit">hello</span>
+    </body>
+```
