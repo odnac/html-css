@@ -72,8 +72,14 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
 
 ##### Collapsing margins, 마진 붕괴 현상 :bookmark_tabs: [참고자료](https://velog.io/@raram2/CSS-%EB%A7%88%EC%A7%84-%EC%83%81%EC%87%84Margin-collapsing-%EC%9B%90%EB%A6%AC-%EC%99%84%EB%B2%BD-%EC%9D%B4%ED%95%B4)
 
-#### <ul><li>border</ul></li>
+#### <ul><li>padding : 경계의 안쪽에 있는 공간</ul></li>
 
-#### <ul><li>padding</ul></li>
+```
+    padding: 20px        // 상하좌우 20px
+    padding: 20px 15px;  // 상하20px, 좌우15px
+    padding: 20px 5px 12px 9px // 상20px 우5px 하12px 좌9px
+```
+
+#### <ul><li>border</ul></li>
 
 <br />
