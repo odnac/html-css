@@ -369,42 +369,42 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
 
 ## Pseudo Selectors
 
-```
-    <head>
-        <style>
-            /* 방식 1 */
-            input:optional {
-                border: 1px solid wheat;
-            }
-            input:required {
-                border: 1px solid tomato;
-            }
+```html
+<head>
+    <style>
+        /* 방식 1 */
+        input:optional {
+            border: 1px solid wheat;
+        }
+        input:required {
+            border: 1px solid tomato;
+        }
 
-            /* 방식 2 */
-            input {
-                border: 1px solid wheat;
-            }
-            input:required {
-                border-color: tomato;
-            }
+        /* 방식 2 */
+        input {
+            border: 1px solid wheat;
+        }
+        input:required {
+            border-color: tomato;
+        }
 
-            /* ~= 포함하는 */
-            input[placeholder~="name"] {
-                background-color: pink;
-            }
+        /* ~= 포함하는 */
+        input[placeholder~="name"] {
+            background-color: pink;
+        }
 
-            input[type="password"] {
-                background-color: thistle;
-            }
-        </style>
-    </head>
-    <body>
-        <div>
-            <form>
-                <input type="text" placeholder="first name" />
-                <input type="text" placeholder="last name" />
-                <input type="password" required placeholder="password" />
-            </form>
-        </div>
-    </body>
+        input[type="password"] {
+            background-color: thistle;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <input type="text" placeholder="first name" />
+            <input type="text" placeholder="last name" />
+            <input type="password" required placeholder="password" />
+        </form>
+    </div>
+</body>
 ```
