@@ -42,9 +42,9 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
 
 #### block inline 차이점
 
-inline은 css에서 display 속성을 block으로 바꾸면 block으로 바뀐다.</br>
-but, 아무 내용이 없는 block을 inline으로 바꾸면 사라진다. \(내용을 넣으면 보임\) <br/>
-because, **_block_**은 높이와 너비가 있고 **_inline_**은 높이와 너비가 없기 때문이다.
+> inline은 css에서 display 속성을 block으로 바꾸면 block으로 바뀐다.</br>
+> but, 아무 내용이 없는 block을 inline으로 바꾸면 사라진다. \(내용을 넣으면 보임\) <br/>
+> because, **_block_**은 높이와 너비가 있고 **_inline_**은 높이와 너비가 없기 때문이다.
 
 #### block의 특징
 
