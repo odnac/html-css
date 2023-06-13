@@ -10,6 +10,36 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
     }
 ```
 
+<br/>
+
+## block & inline
+
+\<div\>와 같이 하나의 요소 옆에 다른 요소가 올 수 없는 것을 **_block_**
+\<span\>과 같이 하나의 요소 옆에 다른 요소가 올 수 있는 것을 **_inlin_**
+
+```
+<span> hi </span>
+<span> my </span>
+<span> name </span>
+<span> is </span>
+<div>
+    <span> odnac </span>
+</div>
+<span> !! </span>
+```
+
+<span> hi </span>
+<span> my </span>
+<span> name </span>
+<span> is </span>
+
+<div>
+    <span> odnac </span>
+</div>
+<span> !! </span>
+
+<br/>
+
 ## 브라우저와 CSS
 
 브라우저가 CSS를 읽는 방식은 cascading이다. \(위에서부터 아래로 차례대로 읽는다.\)
