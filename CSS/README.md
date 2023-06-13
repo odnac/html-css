@@ -42,7 +42,7 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
     <span> !! </span>
 ```
 
-#### 실행 결과
+### 실행 결과
 
 <span> hi </span>
 <span> my </span>
@@ -54,15 +54,15 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
 </div>
 <span> !! </span>
 
-#### block inline 차이점
+### block inline 차이점
 
 > inline은 css에서 display 속성을 block으로 바꾸면 block으로 바뀐다.</br>
 > but, 아무 내용이 없는 block을 inline으로 바꾸면 사라진다. \(내용을 넣으면 보임\) <br/>
 > because, **_block_**은 높이와 너비가 있고 **_inline_**은 높이와 너비가 없기 때문이다.
 
-#### block의 특징
+### block의 특징
 
-##### <ul><li>margin : 경계의 바깥에 있는 공간</ul></li>
+#### <ul><li>margin : 경계의 바깥에 있는 공간</ul></li>
 
 ```
     margin: 20px        // 상하좌우 20px
@@ -70,10 +70,10 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
     margin: 20px 5px 12px 9px // 상20px 우5px 하12px 좌9px
 ```
 
-###### Collapsing margins, 마진 붕괴 현상 :bookmark_tabs: [참고자료](https://velog.io/@raram2/CSS-%EB%A7%88%EC%A7%84-%EC%83%81%EC%87%84Margin-collapsing-%EC%9B%90%EB%A6%AC-%EC%99%84%EB%B2%BD-%EC%9D%B4%ED%95%B4)
+##### Collapsing margins, 마진 붕괴 현상 :bookmark_tabs: [참고자료](https://velog.io/@raram2/CSS-%EB%A7%88%EC%A7%84-%EC%83%81%EC%87%84Margin-collapsing-%EC%9B%90%EB%A6%AC-%EC%99%84%EB%B2%BD-%EC%9D%B4%ED%95%B4)
 
-##### <ul><li>border</ul></li>
+#### <ul><li>border</ul></li>
 
-##### <ul><li>padding</ul></li>
+#### <ul><li>padding</ul></li>
 
 <br />
