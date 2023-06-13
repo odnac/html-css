@@ -4,7 +4,7 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
 
 #### 기본구조
 
-```
+```css
     selector {
         property: value;
     }
@@ -31,7 +31,7 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
 \<div\>와 같이 하나의 요소 옆에 다른 요소가 올 수 없는 것을 **_block_** <br/>
 \<span\>과 같이 하나의 요소 옆에 다른 요소가 올 수 있는 것을 **_inlin_**
 
-```
+```html
     <span> hi </span>
     <span> my </span>
     <span> name </span>
@@ -64,25 +64,29 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
 
 #### <ul><li>margin : 경계의 바깥에 있는 공간</ul></li>
 
-```
-    margin: 20px        // 상하좌우 20px
-    margin: 20px 15px;  // 상하20px, 좌우15px
-    margin: 20px 5px 12px 9px // 상20px 우5px 하12px 좌9px
+```css
+    * {
+        margin: 20px                /* 상하좌우 20px */
+        margin: 20px 15px;          /* 상하20px, 좌우15px */
+        margin: 20px 5px 12px 9px   /* 상20px 우5px 하12px 좌9px */
+    }
 ```
 
 ##### Collapsing margins, 마진 붕괴 현상 :bookmark_tabs: [참고자료](https://velog.io/@raram2/CSS-%EB%A7%88%EC%A7%84-%EC%83%81%EC%87%84Margin-collapsing-%EC%9B%90%EB%A6%AC-%EC%99%84%EB%B2%BD-%EC%9D%B4%ED%95%B4)
 
 #### <ul><li>padding : 경계의 안쪽에 있는 공간</ul></li>
 
-```
-    padding: 20px        // 상하좌우 20px
-    padding: 20px 15px;  // 상하20px, 좌우15px
-    padding: 20px 5px 12px 9px // 상20px 우5px 하12px 좌9px
+```css
+    * {
+        padding: 20px                /* 상하좌우 20px */
+        padding: 20px 15px;          /* 상하20px, 좌우15px */
+        padding: 20px 5px 12px 9px   /* 상20px 우5px 하12px 좌9px */
+    }
 ```
 
 #### <ul><li>border : 경계</ul></li>
 
-```
+```css
     * {
         border: 2px solid black;
     }
@@ -98,11 +102,13 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
 ## id class
 
 ```html
-    // id : 겹치면 안 됨
-    // class : 겹쳐도 됨
-
-    // #abc == id="abc"
-    // .abc == class="abc"
+    <!-- 
+        id : 겹치면 안 됨
+        class : 겹쳐도 됨
+        
+        #abc == id="abc"
+        .abc == class="abc" 
+    -->
 
     <head>
         <style>
