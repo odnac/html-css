@@ -310,3 +310,58 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
     </div>
 </body>
 ```
+
+<br/>
+
+## Combinators
+
+```html
+<head>
+    <style>
+        body {
+            height: 1000vh;
+            margin: 20px;
+        }
+        span {
+            color: tomato;
+            background-color: yellow;
+        }
+
+        /* 부모 자식에 접근하기 */
+        p span {
+            color: teal;
+        }
+
+        /*
+                div 아래 있는 자식, 손자 노드 등 까지 모든 <span>에 적용
+                outside과 inside <span>에 모두 적용 됨
+            */
+        div span {
+            text-decoration: underline;
+        }
+
+        /*
+                div 바로 아래 자식 노드 <span>만 적용
+                outside <span>만 적용 됨
+            */
+        div > span {
+            border: solid;
+        }
+
+        /* span의 가장 가까운 형제노드 p에만 적용 */
+        span + p {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>outside</span>
+        <p>
+            daslkfjsdlkfjasldkjflaskdjflaskdjflaskdjflasdjflaskdjflaksjflaksdjfaklsdjflaksdjflk.
+            <span>inside</span>
+        </p>
+        <p>여긴 span + p 적용이 안되네</p>
+    </div>
+</body>
+```
