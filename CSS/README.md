@@ -48,9 +48,7 @@ because, **_block_**은 높이와 너비가 있고 **_inline_**은 높이와 너
 
 #### block의 특징
 
-##### margin
-
-경계의 바깥에 있는 공간
+##### margin : 경계의 바깥에 있는 공간
 
 ```
     margin: 20px        // 상하좌우 20px
