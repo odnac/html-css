@@ -18,27 +18,27 @@ css가 하는 일은 HTML 태그를 가리키는 일이다.
 \<span\>과 같이 하나의 요소 옆에 다른 요소가 올 수 있는 것을 **_inlin_**
 
 ```
-<span> hi </span>
-<span> my </span>
-<span> name </span>
-<span> is </span>
-<div>
-    <span> odnac </span>
-</div>
-<span> !! </span>
-```
-
-#### 실행 결과
-
     <span> hi </span>
     <span> my </span>
     <span> name </span>
     <span> is </span>
-
     <div>
         <span> odnac </span>
     </div>
     <span> !! </span>
+```
+
+#### 실행 결과
+
+<span> hi </span>
+<span> my </span>
+<span> name </span>
+<span> is </span>
+
+<div>
+    <span> odnac </span>
+</div>
+<span> !! </span>
 
 #### block inline 차이점
 
@@ -58,10 +58,7 @@ because, **_block_**은 높이와 너비가 있고 **_inline_**은 높이와 너
     margin: 20px 5px 12px 9px // 상20px 우5px 하12px 좌9px
 ```
 
-###### Collapsing margins, 마진 붕괴 현상
-
-상하에서만 나타남
-:bookmark_tabs: [참고자료](https://velog.io/@raram2/CSS-%EB%A7%88%EC%A7%84-%EC%83%81%EC%87%84Margin-collapsing-%EC%9B%90%EB%A6%AC-%EC%99%84%EB%B2%BD-%EC%9D%B4%ED%95%B4)
+###### Collapsing margins, 마진 붕괴 현상 :bookmark_tabs: [참고자료](https://velog.io/@raram2/CSS-%EB%A7%88%EC%A7%84-%EC%83%81%EC%87%84Margin-collapsing-%EC%9B%90%EB%A6%AC-%EC%99%84%EB%B2%BD-%EC%9D%B4%ED%95%B4)
 
 ##### border
 
