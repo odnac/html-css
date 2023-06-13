@@ -308,31 +308,3 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
     </div>
 </body>
 ```
-
-<head>
-    <style>
-        body {
-            height: 1000vh;
-            margin: 20px;
-        }
-        div {
-            width: 300px;
-            height: 300px;
-            color: white;
-            background-color: teal;
-            position: relative; /* relative가 없으면 가장 가까운 relative가 기준이 된다. 만약 이 코드가 없다면 body가 기준이 됨 */
-        }
-        #absolute {
-            position: absolute;
-            background-color: wheat;
-            width: 50px;
-            height: 50px;
-            bottom: 0px;
-        }
-    </style>
-</head>
-<body>
-    <div>
-        <div id="absolute"></div>
-    </div>
-</body>
