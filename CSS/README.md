@@ -142,6 +142,8 @@ selector {
 
 ## display: flex
 
+box들을 옆으로 둘 때
+
 ##### flexbox froggy :bookmark_tabs: [공부 사이트](https://flexboxfroggy.com/#ko)
 
 ```html
