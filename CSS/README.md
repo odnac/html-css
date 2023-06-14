@@ -505,3 +505,15 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
     </p>
 </body>
 ```
+
+<br/>
+
+## Variable
+
+```html
+<style>
+    :root {
+        --variable: value;
+    }
+</style>
+```
