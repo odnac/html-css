@@ -524,3 +524,42 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
     }
 </style>
 ```
+
+<br/>
+
+## Trasitions : 상태의 변화를 보내주는 애니메이션
+
+```html
+<head>
+    <title>hihihih</title>
+    <style>
+        a {
+            color: white;
+            background-color: tomato;
+            text-decoration: none;
+            padding: 3px 5px;
+            border-radius: 5px;
+            font-size: 20px;
+
+            /* 
+                    transition은 state가 없는 요소에 써야한다. (hover가 없는 쪽)
+                    state에서 사용하는 요소만 transition이 바꿀 수 있다. (transition의 background-color와 color는 a:hover에서 바꿨기 때문에 적용된다.)
+                */
+            /* 
+                    ease-in function : 브라우저에게 애니메이션이 어떻게 변할지 말해준다
+                    defualt : linear, ease-in, ease-in-out, ease-out, ease
+                    cubic-bezier : ease-in function 사용자화
+                */
+            transition: background-color 1s ease-in-out, color 2s ease-in-out;
+            /* all 5s ease-in-out 한번에 바꾸고 싶으면 all 사용 */
+        }
+        a:hover {
+            color: tomato;
+            background-color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">gogogo</a>
+</body>
+```
