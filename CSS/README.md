@@ -510,6 +510,8 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
 
 ## Variable : 변수
 
+:root 모든 documentd의 뿌리
+
 ```html
 <style>
     :root {
