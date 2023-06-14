@@ -592,3 +592,46 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
     <p>이 글자는 transformation에 의해 영향 받지 않고 가만히 자리에 있어요.</p>
 </body>
 ```
+
+<br/>
+
+## Animations
+
+#### 기본구조
+
+```html
+<style>
+    @keyframes animationName {
+        from {
+            행동
+        }
+        to {
+            행동
+        }
+    }
+</style>
+```
+
+```html
+<head>
+    <title>Animation</title>
+    <style>
+        @keyframes coinflip {
+            from {
+                transform: rotateX(0deg);
+            }
+            to {
+                transform: rotateX(360deg);
+            }
+        }
+        img {
+            border: 5px solid black;
+            border-radius: 50%;
+            animation: coinflip 5s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <img src="minion.jpg" />
+</body>
+```

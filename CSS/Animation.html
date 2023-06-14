@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animation</title>
+        <style>
+            @keyframes coinflip {
+                from {
+                    transform: rotateX(0deg);
+                }
+                to {
+                    transform: rotateX(360deg);
+                }
+            }
+            img {
+                border: 5px solid black;
+                border-radius: 50%;
+                animation: coinflip 5s ease-in-out infinite;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="minion.jpg" />
+    </body>
+</html>
