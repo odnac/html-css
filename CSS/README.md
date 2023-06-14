@@ -508,12 +508,17 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
 
 <br/>
 
-## Variable
+## Variable : 변수
 
 ```html
 <style>
     :root {
         --variable: value;
+        --main-color: #fcce00;
+    }
+    p {
+        top: var(--variable);
+        background-color: var(--main-color);
     }
 </style>
 ```
