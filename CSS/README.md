@@ -577,12 +577,12 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
             border-radius: 50%;
 
             /* 
-                    transformation은 box element를 변형시키지 않는다. 
-                    즉 sibling(이 코드에선 <p>태그)에게 영향을 끼치지 않는다.
+                transformation은 box element를 변형시키지 않는다. 
+                즉 sibling(이 코드에선 <p>태그)에게 영향을 끼치지 않는다.
 
-                    다른 요소의 box를 변형시키지 않고 원하는 요소를 이동시키기 위해서 사용하는 것
-                    transformation은 페이지 픽셀의 다른 부분에서 일어난다.
-                */
+                다른 요소의 box를 변형시키지 않고 원하는 요소를 이동시키기 위해서 사용하는 것
+                transformation은 페이지 픽셀의 다른 부분에서 일어난다.
+            */
             transform: rotateZ(80deg);
         }
     </style>
