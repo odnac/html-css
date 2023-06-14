@@ -19,3 +19,12 @@
         property: valuse;
     }
 */
+
+img {
+    border: 5px solid black;
+    border-radius: 50%;
+    transition: all 2s ease-in-out;
+}
+img:hover {
+    transform: rotateZ(80deg);
+}
