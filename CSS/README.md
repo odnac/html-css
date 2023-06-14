@@ -637,3 +637,18 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
     <img src="minion.jpg" />
 </body>
 ```
+
+<br />
+
+## Media Queries : 오직 CSS만을 이용해서 스크린의 사이즈를 알 수 있는 방법
+
+```css
+<style>
+@media screen {
+
+}
+@media print {
+
+}
+</style>
+```

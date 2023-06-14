@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hihihih</title>
+        <style>
+            body {
+                display: flex;
+                height: 100vh;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column; /* 주축 바꾸기 */
+            }
+            div {
+                background-color: teal;
+                width: 200px;
+                height: 200px;
+            }
+            @media screen and (min-width: 650px) and (max-width: 1000px) and (orientation: landscape) {
+                div {
+                    background-color: tomato;
+                }
+            }
+            span {
+                font-size: 36px;
+            }
+            /* orientation: landscape가로 || portrait세로 */
+            @media screen and (orientation: landscape) {
+                span {
+                    display: none;
+                }
+            }
+            @media print {
+                body {
+                    background-color: tomato;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+        <span>Pleas flip your phone :(</span>
+    </body>
+</html>
