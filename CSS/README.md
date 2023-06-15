@@ -656,5 +656,5 @@ element가 '처음 생성된 위치'를 기준점으로, top bottom left right�
 ## box-sizing: border-box;
 
 > 200px의 박스에 padding-left 50px를 주면 css는 200px의 박스 크기를 유지하려고  
-> 50 + 200 => 250 픽셀로 늘어난다.
+> 박스의 크기가 50 + 200 => 250 픽셀로 늘어난다.  
 > 이를 막기 위해 box-sizing을 쓰면 200px 박스 크기를 유지하면서 패딩을 줄 수 있다.
